@@ -1,4 +1,4 @@
-package com.linkdev.linkdevelopment;
+package com.linkdev.linkdevelopment.ui.activity;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -13,6 +13,7 @@ import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
+import com.linkdev.linkdevelopment.R;
 import com.linkdev.linkdevelopment.databinding.ActivityMainBinding;
 
 import java.util.Objects;
