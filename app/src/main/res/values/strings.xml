@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Link Development</string>
+    <string name="welcome">Welcome</string>
+    <string name="tony_roshdy">Tony Roshdy</string>
+    <string name="explore">Explore</string>
+    <string name="live_chat">Live Chat</string>
+    <string name="gallery">Gallery</string>
+    <string name="wish_list">Wish List</string>
+    <string name="e_magazine">E-Magazine</string>
+</resources>
