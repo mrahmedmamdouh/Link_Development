@@ -1,6 +1,5 @@
 package com.linkdev.linkdevelopment;
 
-import com.linkdev.linkdevelopment.model.Article;
 import com.linkdev.linkdevelopment.presistance.ArticleDatabase;
 import org.junit.After;
 import org.junit.Before;

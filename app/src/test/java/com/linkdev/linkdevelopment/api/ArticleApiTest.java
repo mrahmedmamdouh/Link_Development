@@ -13,7 +13,7 @@ import java.io.IOException;
 import retrofit2.Response;
 
 @RunWith(JUnit4.class)
-public class TrendingApiTest extends ApiAbstract<ArticleApi> {
+public class ArticleApiTest extends ApiAbstract<ArticleApi> {
 
     private ArticleApi trendingApi;
 
