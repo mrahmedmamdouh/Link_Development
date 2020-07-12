@@ -1,4 +1,4 @@
-package com.linkdev.linkdevelopment;
+package com.linkdev.linkdevelopment.ui.adapter;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.linkdev.linkdevelopment.R;
 import com.linkdev.linkdevelopment.dummy.DummyContent.DummyItem;
 
 import java.util.List;

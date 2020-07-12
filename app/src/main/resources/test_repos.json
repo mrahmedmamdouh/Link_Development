@@ -1,0 +1,87 @@
+{
+  "status": "ok",
+  "source": "the-next-web",
+  "sortBy": "top",
+  "articles": [
+    {
+      "author": "The Conversation",
+      "title": "From floating guts to 'sticky' blood — here's how to do surgery in space",
+      "description": "Earlier this year, it was reported that an astronaut in space had developed a potentially life-threatening blood clot in the neck. This was successfully treated with medication by doctors ...",
+      "url": "https://thenextweb.com/syndication/2020/07/12/from-floating-guts-to-sticky-blood-heres-how-to-do-surgery-in-space/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F07%2FCopy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-7-1.png&signature=fbd9c71e253114650c18e00681716b37",
+      "publishedAt": "2020-07-12T09:00:26Z"
+    },
+    {
+      "author": "Nick McCrea",
+      "title": "A beginner’s guide to robot programming with Python",
+      "description": "Let’s face it, robots are cool. They’re also going to run the world some day, and hopefully, at that time they will take pity on their poor soft fleshy creators (a.k.a. robotics ...",
+      "url": "https://thenextweb.com/syndication/2020/07/11/a-beginners-guide-to-robot-programming-with-python/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F07%2FCopy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-3-2.png&signature=150e4aa15dfa8ea711cfd9bea055089c",
+      "publishedAt": "2020-07-11T17:00:06Z"
+    },
+    {
+      "author": "The Conversation",
+      "title": "Australia to start paying EV owners for transferring electricity back to the national grid",
+      "description": "Electric vehicles can help keep the air clean in our cities – as we’ve seen recently with the reduction of traffic through COVID-19 lockdowns – but they face two obstacles.\r\n\r\nIn ...",
+      "url": "https://thenextweb.com/shift/2020/07/11/australia-to-start-paying-ev-owners-for-transferring-electricity-back-to-the-national-grid-syndication/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F07%2FCopy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-6-1.png&signature=8eae61c984548e9cc74ec76397fef9a1",
+      "publishedAt": "2020-07-11T15:00:25Z"
+    },
+    {
+      "author": "TNW Deals",
+      "title": "Build beautiful and fast sites with this intuitive website builder",
+      "description": "TLDR: Easy website creation for visual builders is the calling card of this Sparkle Pro Website Builder lifetime subscription offer.\r\n\r\nWebsite builder apps have a tough job. They need ...",
+      "url": "https://thenextweb.com/offers/2020/07/11/build-beautiful-and-fast-sites-with-this-intuitive-website-builder/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnwDeals?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F07%2FTNW-Sparkle-Pro.png&signature=7d05d893c4cfa559e8502bd430df00a8",
+      "publishedAt": "2020-07-11T12:00:18Z"
+    },
+    {
+      "author": "Live Code Stream",
+      "title": "Javascript regular expressions aren’t that daunting — here’s how to design your own",
+      "description": "The first time I ever encountered a regular expression was many years ago now, but I still remember my first thoughts on it:\r\n\r\n \tWhat is this string-like thing?\r\n \tI don’t want to ...",
+      "url": "https://thenextweb.com/syndication/2020/07/11/javascript-regular-expressions-arent-that-daunting-heres-how-to-design-your-own/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F07%2FCopy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-2-1.png&signature=234fe80a9e084a08c6c7233bc793c0c5",
+      "publishedAt": "2020-07-11T09:00:19Z"
+    },
+    {
+      "author": "Ivan Mehta",
+      "title": "Google-backed Indian delivery startup Dunzo suffers data breach",
+      "description": "Google-backed Indian hyperlocal delivery service Dunzo said it suffered a data breach that left customer data including email IDs and phone numbers exposed.\r\n\r\nThe company said that ...",
+      "url": "https://thenextweb.com/in/2020/07/11/google-backed-indian-delivery-startup-dunzo-suffers-data-breach/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F07%2F1_r8ARl0ijWBff9JDRPtNSeg-e1594451885750.jpeg&signature=9106a56a2726619a139a9ba0289e9aec",
+      "publishedAt": "2020-07-11T07:29:23Z"
+    },
+    {
+      "author": "Rachel Kaser",
+      "title": "How to turn off political ads on Facebook",
+      "description": "It's election year in the US, which means you're probably going to see lots of political ads. While some social media platforms have banned them -- such as Twitter -- Facebook has yet ...",
+      "url": "https://thenextweb.com/basics/2020/07/10/turn-off-political-ads-facebook/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2Ffacebook.png&signature=eb4f4561d080e99e55ca74b3a1bf4d98",
+      "publishedAt": "2020-07-10T23:31:26Z"
+    },
+    {
+      "author": "Napier Lopez",
+      "title": "Apple reportedly planning two MacBooks with ARM processors for 2020",
+      "description": "Prolific Apple analyst Ming Chi Kuo is at it again with another prediction on Cupertino’s upcoming products. Specifically, Kuo believes Apple is planning to launch a 13.3-inch MacBook Pro and a new MacBook Air with the newfangled chips as early as this year, as well as 14 and 16-inch Pros next year. In a research […]",
+      "url": "https://thenextweb.com/plugged/2020/07/10/apple-reportedly-planning-two-macbooks-with-arm-processors-for-2020/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/plugged?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F03%2FApples-new-MacBook-Air-header-image.png&signature=4cb516d062263d1727715115ae991114",
+      "publishedAt": "2020-07-10T19:05:26Z"
+    },
+    {
+      "author": "Rachel Kaser",
+      "title": "Far Cry 6 leaks, and it's apparently a Just Cause game",
+      "description": "Ubisoft was apparently planning to reveal a new Far Cry game at its weekend E3 replacement event. Today, a leak gave away most of the major details about the game, including a look ...",
+      "url": "https://thenextweb.com/gaming/2020/07/10/far-cry-6-details-leak-fingers-crossed-for-female-protagonist/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F07%2FFar-Cry-6.jpg&signature=5b114ef46e49e49db513846235147480",
+      "publishedAt": "2020-07-10T17:01:44Z"
+    },
+    {
+      "author": "Yaron Yitzhak",
+      "title": "Holy Sheet: Apply Einstein's ‘8th wonder of the world’ to your money in Google Sheets",
+      "description": "“Compound interest is the eighth wonder of the world. He who understands it earns it… he who doesn’t… pays it.” For those who aren’t financial gurus, allow me to put this ...",
+      "url": "https://thenextweb.com/basics/2020/07/10/holy-sheet-apply-einsteins-8th-wonder-of-the-world-to-your-money-in-google-sheets/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F03%2Fsheets_formula.png&signature=0a93b4a008c02bd156fb2e231ee6efc1",
+      "publishedAt": "2020-07-10T15:12:09Z"
+    }
+  ]
+}
