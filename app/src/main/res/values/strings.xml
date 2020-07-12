@@ -7,4 +7,8 @@
     <string name="gallery">Gallery</string>
     <string name="wish_list">Wish List</string>
     <string name="e_magazine">E-Magazine</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="search">Search</string>
+
 </resources>
