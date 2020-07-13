@@ -19,6 +19,8 @@ import com.linkdev.linkdevelopment.model.Article;
 import com.linkdev.linkdevelopment.ui.adapter.MyArticlesRecyclerViewAdapter;
 import com.linkdev.linkdevelopment.ui.viewmodel.ArticleViewModel;
 import com.linkdev.linkdevelopment.utils.Resource;
+
+import java.util.ArrayList;
 import java.util.List;
 
 public class ArticlesFragment extends Fragment {
@@ -65,11 +67,13 @@ public class ArticlesFragment extends Fragment {
                 assert resourceResourcePair.first.data != null;
                 assert resourceResourcePair.second.data != null;
                 if (resourceResourcePair.first.data.size() != 0 && resourceResourcePair.second.data.size() != 0) {
-                    List<Article> articles = resourceResourcePair.second.data;
+                    List<Article> articles = new ArrayList<>();
+                    articles.addAll(resourceResourcePair.second.data);
                     articles.addAll(resourceResourcePair.first.data);
                     binding.progressBarShowEnroll.hide();
                     adapter = new MyArticlesRecyclerViewAdapter(getActivity(), articles);
                     binding.list.setAdapter(adapter);
+                    viewModel.getArticles().removeObservers(getViewLifecycleOwner());
                 }
             }
         });

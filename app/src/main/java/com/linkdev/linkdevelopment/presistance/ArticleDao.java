@@ -18,7 +18,10 @@ public interface ArticleDao {
     @Insert(onConflict = REPLACE)
     void insertArticle(Article article);
 
-    @Query("SELECT * from article_data")
-    LiveData<List<Article>> getAllArticles();
+    @Query("SELECT * from article_data where id BETWEEN 1 AND 10")
+    LiveData<List<Article>> getAllArticlesI();
+
+    @Query("SELECT * from article_data where id BETWEEN 11 AND 20")
+    LiveData<List<Article>> getAllArticlesII();
 
 }

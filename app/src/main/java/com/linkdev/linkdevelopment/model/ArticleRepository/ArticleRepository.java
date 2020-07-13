@@ -52,14 +52,15 @@ public class ArticleRepository {
             @Override
             protected boolean shouldFetch(@Nullable List<Article> data) {
                 Log.d(TAG, "saveCallResult: fetched from network");
-                return true;
+                assert data != null;
+                return data.size() == 0;
             }
 
             @NonNull
             @Override
             protected LiveData<List<Article>> loadFromDb() {
                 Log.d(TAG, "saveCallResult: loaded from database");
-                return articleDao.getAllArticles();
+                return articleDao.getAllArticlesI();
             }
 
             @NonNull
@@ -84,14 +85,15 @@ public class ArticleRepository {
             @Override
             protected boolean shouldFetch(@Nullable List<Article> data) {
                 Log.d(TAG, "saveCallResult: fetched from network");
-                return true;
+                assert data != null;
+                return data.size() == 0;
             }
 
             @NonNull
             @Override
             protected LiveData<List<Article>> loadFromDb() {
                 Log.d(TAG, "saveCallResult: loaded from database");
-                return articleDao.getAllArticles();
+                return articleDao.getAllArticlesII();
             }
 
             @NonNull

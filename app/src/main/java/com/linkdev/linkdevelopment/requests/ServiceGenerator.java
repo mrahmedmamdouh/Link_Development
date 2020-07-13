@@ -3,10 +3,6 @@ package com.linkdev.linkdevelopment.requests;
 import com.linkdev.linkdevelopment.utils.Constants;
 import com.linkdev.linkdevelopment.utils.RetrofitCallAdapterFactory;
 
-import java.util.concurrent.TimeUnit;
-
-import okhttp3.OkHttpClient;
-import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 

@@ -1,10 +1,7 @@
 package com.linkdev.linkdevelopment.requests;
 
-import com.linkdev.linkdevelopment.model.Article;
 import com.linkdev.linkdevelopment.model.ArticleResponse;
 import com.linkdev.linkdevelopment.requests.responses.ApiResponse;
-
-import java.util.List;
 
 import androidx.lifecycle.LiveData;
 import retrofit2.Call;

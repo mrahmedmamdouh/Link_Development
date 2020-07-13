@@ -19,14 +19,16 @@ import com.linkdev.linkdevelopment.model.Article;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import java.util.List;
 
 public class MyArticlesRecyclerViewAdapter extends RecyclerView.Adapter<MyArticlesRecyclerViewAdapter.ViewHolder> {
 
-    private final List<Article> mValues;
+    private List<Article> mValues;
     private Context context;
 
     public MyArticlesRecyclerViewAdapter(Context context, List<Article> items) {
+        mValues = new ArrayList<>();
         mValues = items;
         this.context = context;
     }

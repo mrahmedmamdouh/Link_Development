@@ -2,7 +2,7 @@ package com.linkdev.linkdevelopment.utils;
 
 import androidx.lifecycle.LiveData;
 
-// A LiveData class that has {@code null} value.
+
 public class AbsentLiveData extends LiveData {
 
     private AbsentLiveData() {
