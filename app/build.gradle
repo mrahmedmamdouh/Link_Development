@@ -91,4 +91,9 @@ dependencies {
     // rx
     implementation "android.arch.persistence.room:rxjava2:1.1.1"
     implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+
+
+    /* Use Glide to load image and cache it */
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+
 }

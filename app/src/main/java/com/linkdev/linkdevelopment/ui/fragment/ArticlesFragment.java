@@ -13,15 +13,12 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
 import com.linkdev.linkdevelopment.R;
 import com.linkdev.linkdevelopment.databinding.FragmentArticlesListBinding;
 import com.linkdev.linkdevelopment.model.Article;
 import com.linkdev.linkdevelopment.ui.adapter.MyArticlesRecyclerViewAdapter;
 import com.linkdev.linkdevelopment.ui.viewmodel.ArticleViewModel;
 import com.linkdev.linkdevelopment.utils.Resource;
-
-import java.util.ArrayList;
 import java.util.List;
 
 public class ArticlesFragment extends Fragment {
@@ -54,6 +51,7 @@ public class ArticlesFragment extends Fragment {
     }
 
     private void init() {
+        binding.progressBarShowEnroll.show();
         binding.list.setLayoutManager(new LinearLayoutManager(getActivity()));
         binding.list.setHasFixedSize(true);
         binding.list.addItemDecoration(new DividerItemDecoration(requireActivity(),
@@ -63,22 +61,17 @@ public class ArticlesFragment extends Fragment {
 
     private void observeData() {
         viewModel.getArticles().observe(getViewLifecycleOwner(), resourceResourcePair -> {
-
             if (resourceResourcePair.first.status.equals(Resource.Status.SUCCESS) && resourceResourcePair.second.status.equals(Resource.Status.SUCCESS)) {
                 assert resourceResourcePair.first.data != null;
                 assert resourceResourcePair.second.data != null;
                 if (resourceResourcePair.first.data.size() != 0 && resourceResourcePair.second.data.size() != 0) {
-                    List<Article> articles = resourceResourcePair.first.data;
-                    articles.addAll(resourceResourcePair.second.data);
-                    adapter = new MyArticlesRecyclerViewAdapter(articles);
+                    List<Article> articles = resourceResourcePair.second.data;
+                    articles.addAll(resourceResourcePair.first.data);
+                    binding.progressBarShowEnroll.hide();
+                    adapter = new MyArticlesRecyclerViewAdapter(getActivity(), articles);
                     binding.list.setAdapter(adapter);
                 }
             }
-//            } else if (listResource.status.equals(Resource.Status.ERROR)) {
-//
-//            } else if (listResource.status.equals(Resource.Status.LOADING)) {
-//
-//            }
         });
     }
 }
