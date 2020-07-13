@@ -9,5 +9,14 @@
         android:id="@+id/articlesFragment"
         android:name="com.linkdev.linkdevelopment.ui.fragment.ArticlesFragment"
         android:label="fragment_articles_list"
-        tools:layout="@layout/fragment_articles_list" />
+        tools:layout="@layout/fragment_articles_list" >
+        <action
+            android:id="@+id/action_articlesFragment_to_detailedFragment"
+            app:destination="@id/detailedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailedFragment"
+        android:name="com.linkdev.linkdevelopment.ui.fragment.DetailedFragment"
+        android:label="fragment_detailed"
+        tools:layout="@layout/fragment_detailed" />
 </navigation>
