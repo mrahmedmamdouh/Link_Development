@@ -52,7 +52,7 @@ public class ArticleRepository {
             @Override
             protected boolean shouldFetch(@Nullable List<Article> data) {
                 Log.d(TAG, "saveCallResult: fetched from network");
-                return data == null || data.size() == 0;
+                return true;
             }
 
             @NonNull
@@ -84,7 +84,7 @@ public class ArticleRepository {
             @Override
             protected boolean shouldFetch(@Nullable List<Article> data) {
                 Log.d(TAG, "saveCallResult: fetched from network");
-                return data == null || data.size() == 0;
+                return true;
             }
 
             @NonNull

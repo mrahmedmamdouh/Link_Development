@@ -1,6 +1,7 @@
 package com.linkdev.linkdevelopment.ui.adapter;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.widget.AppCompatImageView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
@@ -9,18 +10,19 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.linkdev.linkdevelopment.R;
-import com.linkdev.linkdevelopment.dummy.DummyContent.DummyItem;
+import com.linkdev.linkdevelopment.model.Article;
 
 import java.util.List;
 
 public class MyArticlesRecyclerViewAdapter extends RecyclerView.Adapter<MyArticlesRecyclerViewAdapter.ViewHolder> {
 
-    private final List<DummyItem> mValues;
+    private final List<Article> mValues;
 
-    public MyArticlesRecyclerViewAdapter(List<DummyItem> items) {
+    public MyArticlesRecyclerViewAdapter(List<Article> items) {
         mValues = items;
     }
 
+    @NonNull
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext())
@@ -31,14 +33,12 @@ public class MyArticlesRecyclerViewAdapter extends RecyclerView.Adapter<MyArticl
     @Override
     public void onBindViewHolder(final ViewHolder holder, int position) {
         holder.mItem = mValues.get(position);
-        holder.mIdView.setText(mValues.get(position).id);
-        holder.mContentView.setText(mValues.get(position).content);
+        holder.title.setText(mValues.get(position).getTitle());
+        holder.author.setText(mValues.get(position).getAuthor());
+        holder.date.setText(mValues.get(position).getPublishedAt());
 
-        holder.mView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        holder.mView.setOnClickListener(v -> {
 
-            }
         });
     }
 
@@ -47,23 +47,22 @@ public class MyArticlesRecyclerViewAdapter extends RecyclerView.Adapter<MyArticl
         return mValues.size();
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder {
+    class ViewHolder extends RecyclerView.ViewHolder {
         final View mView;
-        final TextView mIdView;
-        final TextView mContentView;
-        DummyItem mItem;
+        final TextView title;
+        final TextView author;
+        final TextView date;
+        final AppCompatImageView imageView;
+        Article mItem;
 
         ViewHolder(View view) {
             super(view);
             mView = view;
-            mIdView = view.findViewById(R.id.item_number);
-            mContentView = view.findViewById(R.id.content);
+            title = view.findViewById(R.id.title);
+            author = view.findViewById(R.id.author);
+            date = view.findViewById(R.id.date);
+            imageView = view.findViewById(R.id.image);
         }
 
-        @NonNull
-        @Override
-        public String toString() {
-            return super.toString() + " '" + mContentView.getText() + "'";
-        }
     }
 }
